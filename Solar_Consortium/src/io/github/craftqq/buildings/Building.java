@@ -1,5 +1,7 @@
 package io.github.craftqq.buildings;
 
+import io.github.craftqq.game.Player;
+
 public abstract class Building 
 {
 	protected int costSpace;
@@ -51,5 +53,5 @@ public abstract class Building
 		return costCredits;
 	}
 	
-	public abstract BuildingActive getActiveCorrespond();
+	public abstract BuildingActive createActiveBuilding(Player p);
 }

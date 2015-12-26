@@ -1,5 +1,6 @@
 package io.github.craftqq.buildings;
 
+import io.github.craftqq.game.Player;
 import io.github.craftqq.game.Turn;
 
 public abstract class BuildingActive 
@@ -8,6 +9,7 @@ public abstract class BuildingActive
 	protected int healthMax;
 	protected int space;
 	protected int armor;
+	protected Player owner;
 	
 	public BuildingActive() 
 	{
@@ -15,14 +17,16 @@ public abstract class BuildingActive
 		healthMax = 0;
 		space = 0;
 		armor = 0;
+		owner = Player.NONE;
 	}
 	
-	public BuildingActive(int health, int healthMax, int space, int armor) 
+	public BuildingActive(int health, int healthMax, int space, int armor, Player owner) 
 	{
 		this.health = health;
 		this.healthMax = healthMax;
 		this.space = space;
 		this.armor = armor;
+		this.owner = owner;
 	}
 	
 	public int getHealth() 
@@ -30,9 +34,9 @@ public abstract class BuildingActive
 		return health;
 	}
 	
-	public void setHealth(int health)
+	public void changeHealth(int amount)
 	{	
-		this.health = health;
+		health += amount;
 	}
 	
 	public int getHealthMax() 

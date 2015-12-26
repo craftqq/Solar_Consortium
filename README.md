@@ -1,0 +1,2 @@
+# Solar_Consortium
+Rundenbasiertes Strategiespiel

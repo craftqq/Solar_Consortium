@@ -1,0 +1,41 @@
+  X -make TODO-list
+	-finish ShipFactory
+	-add more classes
+	-finish SpaceshipActive
+	-finish WeaponActive
+	-add Weapon
+	-finish EquipmentActive
+	-add Equipment
+	-finish Resource
+	-add more Ships and buildings
+	-add planets
+	-build a gameengine
+	-finish Player
+	-add factions
+	-add AI
+	-get input from keyboard and mouse
+	-add a GUI
+	-add network support
+	-make game do something
+	-add prebuild ships
+	-add more resources
+	-add research
+	-add sound
+	-add graphics
+	-add saving and loading
+	-add modding API
+	-add settings
+	-sort TODO-list
+	-add different starting choices
+	-add buffs / debuffs
+	-add win conditions
+	?add tutorial?
+	-add credits
+	-add stars
+	?add different systems?
+		?add warp?
+	-add more weapons and equipment
+	-add economy
+	?add custom (ingame custom, not mod) weapons / equipment?
+	?add capital ships?
+	?add more points on TODO-list?

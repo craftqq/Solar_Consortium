@@ -1,5 +1,10 @@
   X -make TODO-list
 	-finish ShipFactory
+	-add activeGameObject (or something similar)
+	-add "mobile" objects
+	-add nonmoving objects
+	-add planetary / solar classes
+	-add classes for whole systems
 	-add more classes
 	-finish SpaceshipActive
 	-finish WeaponActive

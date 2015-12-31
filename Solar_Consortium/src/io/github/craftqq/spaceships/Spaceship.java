@@ -2,6 +2,7 @@ package io.github.craftqq.spaceships;
 
 public class Spaceship 
 {
+	protected String name;
 	protected int spaceInterior;
 	protected int amountGuns;
 	protected int healthBasis;
@@ -10,8 +11,9 @@ public class Spaceship
 	protected int costTitan;
 	protected int weightBasis;
 	
-	public Spaceship(int spaceInterior, int amountGuns, int healthBasis, int armorBasis, int costIron, int costTitan, int weightBasis) 
+	public Spaceship(String name, int spaceInterior, int amountGuns, int healthBasis, int armorBasis, int costIron, int costTitan, int weightBasis) 
 	{
+		this.name = name;
 		this.spaceInterior = spaceInterior;
 		this.amountGuns = amountGuns;
 		this.healthBasis = healthBasis;
@@ -19,6 +21,11 @@ public class Spaceship
 		this.costIron = costIron;
 		this.costTitan = costTitan;
 		this.weightBasis = weightBasis;
+	}
+	
+	public String getName()
+	{
+		return name;
 	}
 	
 	public int getSpaceInterior() 
@@ -55,4 +62,5 @@ public class Spaceship
 	{
 		return weightBasis;
 	}
+	
 }
